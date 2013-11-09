@@ -23,7 +23,7 @@
     "hubot": ">= 2.6.0 < 3.0.0",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
     "hubot-hipchat": "~2.5.1-5",
-    "strftime": "*",
+    "strftime": "0.5.0",
     "string": "1.2.1"
   },
   "engines": {
