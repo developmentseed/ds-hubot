@@ -7,7 +7,7 @@
 module.exports = (robot) ->
 
   robot.respond /nottheonion/i, (msg) ->
-    msg.http('https://www.reddit.com/r/nottheonion/new.json?sort=new')
+    msg.http('https://www.reddit.com/r/nottheonion/top.json?sort=top&t=week')
       .get() (err, res, body) ->
         urls = JSON.parse(body).data.children
         index = Math.floor(Math.random() * urls.length)
