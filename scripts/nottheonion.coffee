@@ -2,7 +2,7 @@
 #   Gets a headline from the /r/nottheonion subreddit
 #
 # Commands:
-#   hubot headline
+#   hubot nottheonion
 
 module.exports = (robot) ->
 
